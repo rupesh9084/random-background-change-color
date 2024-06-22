@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.main{
+    
+    height: 600px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     
+    
+
+}
+.container{
+
+    background-color: black;
+    width: 250px;
+    text-align: center;
+    padding: 30px;
+    border-radius: 15px;
+}
+.container #btn{
+    border: none;
+    outline: none;
+    background-color: white;
+    margin-top: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 150px;
+    padding: 4px;
+}
+.container #para{
+    font-size: 25px;
+    color: white;
+}
